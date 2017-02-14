@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang = "en>
+    <head>
+          <title>Bootstrap Example</title>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>         
+          <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.validation/1.11.1/jquery.validate.min.js"></script>
+          <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.validation/1.13.0/additional-methods.min.js"></script>
+          <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>          
+          <script type="text/javascript" src="LoginPageJ.js"></script>
+          <style>
+              body {background-image:url("http://images6.fanpop.com/image/photos/34600000/I-write-my-heart-on-a-paper-writing-34664951-1600-1200.jpg"); background-size: 1080px 512px}
+                .container{margin:auto}
+                .error{color: red}
+                         
+          </style>
+    </head>
+<body>
+    <div class="container" style="margin: auto; padding-top: 100px">    
+
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+            <form  id="Login" name="Login" style="">
+                <div class = "input-group">    
+                    <span class="input-group-addon">
+                    	<i class="glyphicon glyphicon-user"></i>
+                    </span>
+                    <div class = "">
+                        <input name="Name" placeholder = "Enter name" class="form-control" type = "text" >
+                    </div>
+                </div>
+                <br>
+                <div class = "input-group">    
+                    <span class="input-group-addon">
+                    	<i class="glyphicon glyphicon-envelope"></i>
+                    </span>
+                    <div class= "">
+                        <input name = "email" id="email" placeholder = "Enter email-id" class="form-control" >
+                    </div>
+                </div> 
+                <br>
+                <div class = "input-group">    
+                    <span class="input-group-addon">
+                    	<i class="glyphicon glyphicon-lock"></i>
+                    </span>
+                    <div class= "">
+                        <input name="password1" type = "password" id="password1"  placeholder = "Enter password" class="form-control">
+                    </div>
+                </div> 
+                <br>
+                <div class = "input-group">    
+                    <span class="input-group-addon">
+                        <i class="glyphicon glyphicon-lock"></i>
+                    </span>
+                    <div class= "">
+                        <input name="password2" type = "password" id="password2" placeholder = "Reenter password" class="form-control">
+                    </div>
+                </div> 
+                <br>
+                <div class = "checkbox" style="padding-left: 140px">
+                    <label>
+                    	<input type="checkbox" style="width: 17px; height: 17px;"> 
+		                    <div style="font-style: oblique;font-size: 17px;font-weight: bold;color: rgb(241,237,237); padding-left: 30px; padding-top: 0px; font-family: cursive;">Remember me
+		                    </div>
+                    </label>
+                </div>
+                <br>
+                    <div style="padding-left: 200px; padding-top:-10px;">
+		               <button type="Submit" class="btn btn-success">Login</button>
+                    </div>
+                </form>
+            
+        </div>
+            <div class="col-sm-3"></div>
+        
+    </div>
+</body>           
